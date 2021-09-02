@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./libs/all.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <title>TodoList</title>
+</head>
+
+<body>
+  <section class="section-todo">
+    <div class="container">
+      <div class="todo">
+        <h1 class="todo__heading">todoList</h1>
+        <div class="todo-form js-form">
+          <input class="todo-form__input js-input" type="text" minlength="3" placeholder="Add a task" required>
+          <button class="todo-form__btn js-addBtn" type="button"><i class="fas fa-plus"></i></button>
+        </div>
+
+        <div class="todo-task">
+          <h3 class="todo-heading">Unfinished tasks</h3>
+          <ul class="unfinished-tasks todo-task__list js-ulList">
+          </ul>
+          <h3 class="todo-heading">Finished tasks</h3>
+          <ul class="finished-tasks">
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="./script/todo.js"></script>
+</body>
+
+</html>
